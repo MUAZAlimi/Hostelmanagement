@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Hostel Management App</title>
+</head>
+
+<body>
+    <header class="header">
+        <h1>Hostel Management App</h1>
+    </header>
+
+    <div class="container">
+        <div class="form">
+            <label for="studentName">Student Name:</label>
+            <input type="text" id="studentName">
+
+            <label for="roomNumber">Room Number:</label>
+            <input type="text" id="roomNumber">
+
+            <button onclick="addStudent()">Add Student</button>
+        </div>
+
+        <div class="student-list">
+            <h2>Student List</h2>
+            <ul id="studentList"></ul>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
