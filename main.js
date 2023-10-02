@@ -1,10 +1,10 @@
 function addStudent() {
-    var studentName = document.getElementById("studentName").value;
-    var roomNumber = document.getElementById("roomNumber").value;
+    const studentName = document.getElementById("studentName").value;
+    const roomNumber = document.getElementById("roomNumber").value;
 
     if (studentName && roomNumber) {
-        var studentList = document.getElementById("studentList");
-        var li = document.createElement("li");
+        const studentList = document.getElementById("studentList");
+        const li = document.createElement("li");
         li.appendChild(document.createTextNode(`Student Name: ${studentName}, Room Number: ${roomNumber}`));
         studentList.appendChild(li);
 
